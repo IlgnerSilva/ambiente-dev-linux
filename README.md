@@ -13,22 +13,22 @@ sudo apt install curl
 ```
 ## Para instalar o node use os comandos abaixo
 
-## Primeiro, instalaremos o PPA para obter acesso aos pacotes dele.
+### Primeiro, instalaremos o PPA para obter acesso aos pacotes dele.
 
 ```
 cd ~
 curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
 ```
 
-## execute o script com o sudo:
+### execute o script com o sudo:
 ```
 sudo bash nodesource_setup.sh
 ```
-## O PPA será adicionado à sua configuração e seu cache de pacotes local será atualizado automaticamente. Agora, você pode instalar o pacote Node.js
+### O PPA será adicionado à sua configuração e seu cache de pacotes local será atualizado automaticamente. Agora, você pode instalar o pacote Node.js
 ```
 sudo apt install nodejs
 ```
-## Verifique se você instalou a nova versão executando o node com o sinalizador de versão -v:
+### Verifique se você instalou a nova versão executando o node com o sinalizador de versão -v:
 ```
 node -v
 ```
